@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976EDFA029435E5C00763D44 /* ModalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976EDF9F29435E5C00763D44 /* ModalViewCell.swift */; };
+		976EDFA229435F4500763D44 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976EDFA129435F4500763D44 /* ModalViewController.swift */; };
 		977D0E5B2942290500530222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D0E5A2942290500530222 /* AppDelegate.swift */; };
 		977D0E5D2942290500530222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D0E5C2942290500530222 /* SceneDelegate.swift */; };
 		977D0E5F2942290500530222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D0E5E2942290500530222 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		976EDF9F29435E5C00763D44 /* ModalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewCell.swift; sourceTree = "<group>"; };
+		976EDFA129435F4500763D44 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = SOURCE_ROOT; };
 		977D0E572942290500530222 /* ScreenTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		977D0E5A2942290500530222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		977D0E5C2942290500530222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,8 +60,10 @@
 		977D0E592942290500530222 /* ScreenTransition */ = {
 			isa = PBXGroup;
 			children = (
+				976EDF9F29435E5C00763D44 /* ModalViewCell.swift */,
 				977D0E5A2942290500530222 /* AppDelegate.swift */,
 				977D0E5C2942290500530222 /* SceneDelegate.swift */,
+				976EDFA129435F4500763D44 /* ModalViewController.swift */,
 				977D0E5E2942290500530222 /* ViewController.swift */,
 				977D0E602942290500530222 /* Main.storyboard */,
 				977D0E632942290500530222 /* Assets.xcassets */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				977D0E5F2942290500530222 /* ViewController.swift in Sources */,
+				976EDFA229435F4500763D44 /* ModalViewController.swift in Sources */,
 				977D0E5B2942290500530222 /* AppDelegate.swift in Sources */,
+				976EDFA029435E5C00763D44 /* ModalViewCell.swift in Sources */,
 				977D0E5D2942290500530222 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
